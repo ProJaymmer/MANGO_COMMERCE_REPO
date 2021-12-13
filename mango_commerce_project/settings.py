@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     # DON'T FORGET REST FRAMEWORK TO LAUNCH WEB PAGE
     'rest_framework',
     # OUR APPS
-    'api'
+    'api',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
