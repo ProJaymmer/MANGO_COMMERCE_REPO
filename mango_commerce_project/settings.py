@@ -112,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# Register custom user model as AUTH_USER_MODEL in settings.py
+# Register custom user model as AUTH_USER_MODEL
 AUTH_USER_MODEL = 'api.User'
 
 # Internationalization

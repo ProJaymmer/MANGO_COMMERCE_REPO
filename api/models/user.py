@@ -48,6 +48,8 @@ class UserManager(BaseUserManager):
 
 # Inherit from AbstractBaseUser and PermissionsMixin:
 
+# (Under project folder, register custom User model as AUTH_USER_MODEL in settings.py)
+
 
 class User(AbstractBaseUser, PermissionsMixin):
     # As with any Django models, we need to define the fields
@@ -67,6 +69,5 @@ class User(AbstractBaseUser, PermissionsMixin):
         return self.email
 # Any time we call User.objects (such as in objects.all() or objects.filter())
 # make sure to use the custom user manager we created.
-
 
     objects = UserManager()
