@@ -112,6 +112,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Register custom user model as AUTH_USER_MODEL in settings.py
+AUTH_USER_MODEL = 'api.User'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
