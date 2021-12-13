@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # DON'T FORGET REST FRAMEWORK TO LAUNCH WEB PAGE
+    'rest_framework',
     # OUR APPS
     'api'
 ]
